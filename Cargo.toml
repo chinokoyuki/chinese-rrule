@@ -1,0 +1,13 @@
+[package]
+name = "chinese-rrule"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Parse Chinese natural-language time expressions into RFC 5545 RRULE strings and next-trigger timestamps"
+readme = "README.md"
+repository = "https://github.com/chinokoyuki/chinese-rrule"
+keywords = ["chinese", "rrule", "nlp", "time", "recurrence"]
+categories = ["parser-implementations", "date-and-time", "internationalization"]
+
+[dependencies]
+chrono = "0.4"
